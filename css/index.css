@@ -41,6 +41,7 @@ header a {
 
 .section-heading {
 	padding: 16px;
+  margin: auto;
 }
 
 #section-one .grid-container {
@@ -142,9 +143,7 @@ header a {
 
 .cards .card {
 	background-color: #f4f4f4;
-  border-radius: 20px;
 	margin-bottom: 16px;
-	width: 200px;
 }
 
 
