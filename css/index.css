@@ -7,11 +7,11 @@
 	body {
 		font-family: 'Times New Roman', Times, serif;
 		line-height: 1.5;
-		background-color: #101820;
+		background-color: #0E0b16;
 	}
 
 	header {
-		background-color: #FEE715;
+		background-color: #0E0b16;
 		margin-bottom: 30px;
 		position: sticky;
 		padding: 0 16px;
@@ -29,20 +29,20 @@
 
 	header a {
 		text-decoration: none;
-		color: #101820;
+		color: #fff;
 		font-size: 20px;
     overflow: visible;
 	}
 
 	#section-one {
 		margin-bottom: 16px;
-		background-color: #101820;
+		background-color: #0E0b16;
 	}
 
 	.section-heading {
 		padding: 16px;
 		margin-bottom: 16px;
-		color: #FEE715;
+		color: #fff;
 	}
 
 	#section-one .grid-container {
@@ -53,7 +53,7 @@
 	}
 
 	.grid-container .thumbnail .sub-text {
-		color: #FEE715;
+		color: #fff;
 		font-size: 20px;
 		margin-bottom: 16px;
 		padding: 16px;
@@ -65,7 +65,7 @@
 	}
 
 	.grid-container .thumbnail .links i {
-		color: #FEE715;
+		color: #fff;
 		font-size: 30px;
 		padding: 16px;
 	}
@@ -102,7 +102,7 @@
 		flex-direction: column;
 		margin-bottom: 16px;
 		opacity: 1;
-		color: #FEE715;
+		color: #fff;
 	}
 
 	#section-two .images img {
@@ -120,7 +120,7 @@
 
 	#section-two .button {
 		position: relative;
-		background-color: #101820;
+		background-color: #0E0b16;
 		border-radius: 25px;
 		width: 100px;
     margin: 16px;
@@ -128,12 +128,12 @@
 
 	.button a {
 		text-decoration: none;
-		color: #FEE715;
+		color: #fff;
 	}
 
 	#section-three {
 		padding: 16px;
-		background-color: #101820;
+		background-color: #0E0b16;
     margin-bottom: 16px;
 	}
 
@@ -145,12 +145,21 @@
 	}
 
 	.cards .card {
-		background-color: #101820;
+		background-color: #0E0b16;
 		margin-bottom: 16px;
-		color: #FEE715;
+		color: #fff;
 		line-height: 27px;
 	}
 
 	.cards .card h2 {
 		margin-bottom: 22px;
 	}
+
+  #section-four {
+    padding: 16px;
+  }
+
+  #section-four .swiper-slide video {
+    border-radius: 30px;
+    width: 600px;
+  }
