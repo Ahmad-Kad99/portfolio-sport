@@ -18,11 +18,12 @@
 			<li><a href="#section-one">About</a></li>
 			<li><a href="#section-two">Experience</a></li>
 			<li><a href="#section-three">Hobbies</a></li>
-			<li><a href="#section-four">Future Plans</a></li>
-      <li><a href="#section-five">Work Showcase</a></li>
-      <li><a href="#section-six">Contact</a></li>
+			<li><a href="#section-four">Gallery</a></li>
+			<li><a href="#section-five">Future Plans</a></li>
+			<li><a href="#section-six">Contact</a></li>
 		</ul>
 	</header>
+
 	<section id="section-one">
 		<div class="section-heading">
 			<h1>About</h1>
@@ -30,19 +31,21 @@
 		<div class="grid-container">
 			<div class="thumbnail">
 				<div class="sub-text one">
-					<h2>Where to find me</h2>
+					<h2>About Me</h2>
 				</div>
-				<div class="links">
-					<a href="https://au.linkedin.com/in/ahmad-kaddour-75b70a257"><i class='bx bxl-linkedin'></i></a>
-					<a href="https://github.com/Ahmad-Kad99"><i class='bx bxl-github'></i></a>
-					<a href="mailto:ahmadkaddour0326@gmail.com"><i class='bx bxl-gmail'></i></a>
+				<div class="body-text">
+					<p>
+						My name is Ahmad Kaddour i am 20 years of age.
+						I am currently learning how to be a better web developer at Zenu All-In-One CRM for Real Estate.
+						In my learning i have learnt ColdFusion, HTML, CSS and JavaScript.
+					</p>
 				</div>
 			</div>
 			<div class="image one">
-				<img src="../images/Gemini_Generated_Image.jpeg" alt="">
+				<img src="../images/Gemini_Generated_Image.jpeg" alt="Image 1">
 			</div>
 			<div class="image two">
-				<img src="../images/Gemini_Generated_Image(1).jpeg" alt="">
+				<img src="../images/Gemini_Generated_Image(1).jpeg" alt="Image 2">
 			</div>
 		</div>
 	</section>
@@ -58,7 +61,7 @@
 				<span>Check out my CV here</span>
 			</div>
 			<button class="button"><a
-					href="https://zenu-my.sharepoint.com/:w:/r/personal/ahmad_kaddour_zenu_com_au/_layouts/15/Doc.aspx?sourcedoc=%7BB1B78AC5-EFCC-4AC2-B212-78782A92180E%7D&file=Resume%20Ahmad%20Kaddour%201.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=ahmad.kaddour%40zenu.com.au&ct=1708574375949&wdOrigin=OFFICECOM-WEB.START.REC&cid=ca40dbf4-30b1-4fa5-a31a-41a2b2fb1209&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=75f78846-be3d-45db-88e4-f8e642db16c8">Experience</a></button>
+					href="https://zenu-my.sharepoint.com/:w:/r/personal/ahmad_kaddour_zenu_com_au/_layouts/15/Doc.aspx?sourcedoc=%7BB1B78AC5-EFCC-4AC2-B212-78782A92180E%7D&file=Resume%20Ahmad%20Kaddour%201.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=ahmad.kaddour%40zenu.com.au&ct=1708574375949&wdOrigin=OFFICECOM-WEB.START.REC&cid=ca40dbf4-30b1-4fa5-a31a-41a2b2fb1209&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=75f78846-be3d-45db-88e4-f8e642db16c8">View</a></button>
 		</div>
 	</section>
 	<section id="section-three">
@@ -112,6 +115,27 @@
 	</section>
 	<section id="section-four">
 		<div class="section-heading">
+			<h1>Gallery</h1>
+		</div>
+		<div class="swiper-one">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="../images/Screenshot from 2024-01-16 11-28-14.png" alt="Image 3">
+				</div>
+				<div class="swiper-slide">
+					<img src="../images/Screenshot from 2024-01-17 09-36-04.png" alt="Image 4">
+				</div>
+				<div class="swiper-slide">
+					<img src="../images/Screenshot from 2024-02-28 12-44-01.png" alt="Image 5">
+				</div>
+				<div class="text-wrapper">
+					<span>A showcase of the work i have done</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section-five">
+		<div class="section-heading">
 			<h1>Future plans</h1>
 		</div>
 		<div class="swiper">
@@ -134,17 +158,31 @@
 			</div>
 		</div>
 	</section>
-  <section id="section-five">
-    <div class="section-heading">
-      <h1>Work Showcase</h1>
-    </div>
-  </section>
+	<section id="section-six">
+		<footer>
+			<div class="section-heading">
+				<h1>Contact</h1>
+			</div>
+			<div class="icons">
+				<a href="https://au.linkedin.com/in/ahmad-kaddour-75b70a257"><i class='bx bxl-linkedin'></i></a>
+				<a href="https://github.com/Ahmad-Kad99"><i class='bx bxl-github'></i></a>
+				<a href="mailto:ahmadkaddour0326@gmail.com"><i class='bx bxl-gmail'></i></a>
+			</div>
+		</footer>
+	</section>
 	<script>
 		const swiper = new Swiper('.swiper', {
 			autoplay: {
-				delay: 30000,
+				delay: 10000,
 			},
+		});
+		var swiperOne = new Swiper(".swiper-one", {
+			effect: "fade",
+			autoplay: {
+				delay: 3000,
+			}
 		});
 	</script>
 </body>
+
 </html>
