@@ -17,7 +17,6 @@
 		padding: 0 16px;
 		align-items: flex-start;
 		top: 0;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 	}
 
 	header li {
@@ -36,9 +35,21 @@
 		font-size: 20px;
 	}
 
+	.banner-image {
+		width: 100%;
+		height: 100%;
+	}
+
+	.banner-image img {
+		width: 100%;
+		height: 100%;
+		margin-bottom: -3.6rem;
+    padding: 16px;
+	}
+
 	#section-one {
-		margin-bottom: 16px;
 		background-color: #0E0b16;
+		width: 100%;
 	}
 
 	.section-heading {
@@ -52,6 +63,7 @@
 		grid-template-columns: repeat(3, 1fr);
 		column-gap: 16px;
 		row-gap: 16px;
+		width: 100%;
 	}
 
 	.grid-container .thumbnail .sub-text {
@@ -81,11 +93,31 @@
 		border-bottom-right-radius: 6px;
 	}
 
+	#section-one .button-next {
+		background-color: #FF9999;
+		border: 0;
+		outline: 0;
+		display: block;
+		transform: translateY(0) translateZ(0);
+		font-size: 1.5rem;
+		border-radius: .4rem;
+		width: 100px;
+		margin: 16px;
+		line-height: 27px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#section-one .button-next a {
+		text-decoration: none;
+		color: #0E0b16;
+	}
+
 	#section-two {
 		position: relative;
-		margin-bottom: 16px;
+		margin-bottom: 36px;
 		padding: 16px;
-		width: 100%;
+		width: 50%;
 	}
 
 	.image-button-text-container {
@@ -130,13 +162,13 @@
 		padding: 16px;
 		background-color: #0E0b16;
 		margin-bottom: 16px;
+		width: 50%;
 	}
 
 	.cards {
 		display: flex;
 		justify-content: space-between;
-		padding: 0 16px;
-		flex: 1 1 0;
+		padding: 16px;
 	}
 
 	.cards .card {
@@ -152,6 +184,7 @@
 
 	#section-four {
 		padding: 16px;
+		width: 100%;
 	}
 
 	.swiper-one {
@@ -183,10 +216,11 @@
 
 	#section-five {
 		margin-bottom: 40px;
+    width: 100%;
 	}
 
 	#section-five .swiper-slide video {
-		border-radius: 30px;
+		border-radius: 10px;
 	}
 
 	#section-six {
@@ -207,30 +241,30 @@
 		text-align: center;
 		font-weight: 600;
 		display: inline-block;
-    margin-bottom: 30px;
+		margin-bottom: 30px;
 	}
 
 	#section-six .top-link a {
 		text-decoration: none;
 		color: #fff;
-    text-align: center;
+		text-align: center;
 	}
 
-  footer {
-    background-color: #FF9999;
-    color: #000;
-    width: 100%;
-  }
+	footer {
+		background-color: #FF9999;
+		color: #0E0b16;
+		width: 100%;
+	}
 
-  footer .section-heading {
-    color: #0E0b16;
-  }
+	footer .section-heading {
+		color: #0E0b16;
+	}
 
-	footer .icons a   {
+	footer .icons a {
 		color: #000;
 		padding: 16px;
 		font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
 	}
